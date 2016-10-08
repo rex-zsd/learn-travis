@@ -3,6 +3,7 @@ node_js:
 - '6'
 script:
 - npm run lint
+- ./deploy.sh
 deploy:
   provider: script
   script: ./deploy.sh

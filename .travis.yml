@@ -6,4 +6,6 @@ script:
 - chmod 777 deploy.sh && ./deploy.sh
 before_install:
 - openssl aes-256-cbc -K $encrypted_e62857c60f1c_key -iv $encrypted_e62857c60f1c_iv
+  -in deploy.sh.enc -out deploy.sh -d
+- openssl aes-256-cbc -K $encrypted_e62857c60f1c_key -iv $encrypted_e62857c60f1c_iv
   -in deploy_rsa.enc -out deploy_rsa -d

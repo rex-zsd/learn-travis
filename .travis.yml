@@ -3,6 +3,7 @@ node_js:
 - '6'
 script:
 - npm run lint
+- chmod 777 deploy.sh
 - ./deploy.sh
 deploy:
   provider: script

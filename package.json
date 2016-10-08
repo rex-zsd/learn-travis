@@ -1,0 +1,20 @@
+{
+  "name": "learn-travis",
+  "version": "1.0.0",
+  "description": "learn travis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo 1111"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rex-zsd/learn-travis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rex-zsd/learn-travis/issues"
+  },
+  "homepage": "https://github.com/rex-zsd/learn-travis#readme"
+}
